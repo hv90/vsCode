@@ -19,8 +19,8 @@ int fat(int n){
 int main (int argc, char *argv[]){
     int n = 5;
 
-    printf("\n\n\nEste programa calcula o fatorial de um número\n\n\n"
-            "Entre um número para calcular o fatorial: \n");
+    printf("\n\n\nEste programa calcula o fatorial de um numero\n\n\n"
+            "Entre um numero para calcular o fatorial: \n");
     
     scanf("%d", &n);
     printf("O fatorial eh: %d\n",fat(n));
